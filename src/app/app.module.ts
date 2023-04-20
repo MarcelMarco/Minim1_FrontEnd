@@ -29,6 +29,10 @@ import { ModifyuserComponent } from './components/user/modifyuser/modifyuser.com
 import { LoginComponent } from './components/login/login.component';
 import { AuthService } from './components/auth/auth.service';
 import { AuthGuardService } from './components/auth/auth-guard.service';
+import { NotificacionesComponent } from './components/notificacion/notificaciones/notificaciones.component';
+import { ListnotificacionesComponent } from './components/notificacion/listnotificaciones/listnotificaciones.component';
+import { FormnotificacionesComponent } from './components/notificacion/formnotificaciones/formnotificaciones.component';
+import { ModifynotificacionesComponent } from './components/notificacion/modifynotificaciones/modifynotificaciones.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +49,10 @@ import { AuthGuardService } from './components/auth/auth-guard.service';
     ListuserComponent,
     ModifyuserComponent,
     LoginComponent,
+    NotificacionesComponent,
+    ListnotificacionesComponent,
+    FormnotificacionesComponent,
+    ModifynotificacionesComponent
   ],
   imports: [
     BrowserModule,

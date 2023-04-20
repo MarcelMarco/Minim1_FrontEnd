@@ -1,0 +1,71 @@
+<div class="row">
+    <div class="col-sm-8">
+        <!-- <h2>Create Data:</h2> -->
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="name" class="control-label col-sm-2">
+              <!-- Name -->
+            </label>
+            <div class="col-sm-10">
+              <input 
+                type="text" 
+                class="form-control" 
+                id="name" 
+                name="name" [(ngModel)]="model.name"
+                placeholder="Enter a New Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="descripcion" class="control-label col-sm-2">
+              <!-- Surname -->
+            </label>
+            <div class="col-sm-10">
+              <input 
+                type="text" 
+                class="form-control" 
+                id="descripcion" 
+                name="descripcion" [(ngModel)]="model.descr" 
+                placeholder="Enter a New Descripcion">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="prioridad" class="control-label col-sm-2">
+              <!-- Email -->
+            </label>
+            <div class="col-sm-10">
+              <input 
+                type="text" 
+                class="form-control" 
+                id="prioridad" 
+                name="prioridad" [(ngModel)]="model.prioridad" 
+                placeholder="Enter a New Prioridad">
+            </div>
+          </div>         
+          <div class="form-group">
+            <label for="enviada" class="control-label col-sm-2">
+              <!-- Email -->
+            </label>
+            <div class="col-sm-10">
+              <input 
+                type="text" 
+                class="form-control" 
+                id="enviada" 
+                name="enviada" [(ngModel)]="model.enviada" 
+                placeholder="Enter a New Enviada">
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+              <button
+                type="submit"
+                class="btn btn-success"
+                (click)="addNotificacion()"
+              >
+              Save
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+</div>

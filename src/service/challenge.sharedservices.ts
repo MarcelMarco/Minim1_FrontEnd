@@ -21,5 +21,13 @@ export class SharedDataService {
   editClickedUser = new Subject<boolean>();
 
   user: any = null;
+
+  //--------------NOTIFIACION SHARED DATA-----------------
+
+  notificacionAdded = new Subject<boolean>();
+
+  editClickedNotificacion = new Subject<boolean>();
+
+  notificacion: any = null;
 }
 
